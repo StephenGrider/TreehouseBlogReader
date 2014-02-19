@@ -19,6 +19,9 @@
 		EC14468618B442BD00BC4606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC14466E18B442BD00BC4606 /* UIKit.framework */; };
 		EC14468E18B442BD00BC4606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC14468C18B442BD00BC4606 /* InfoPlist.strings */; };
 		EC14469018B442BD00BC4606 /* BlogReaderScratchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14468F18B442BD00BC4606 /* BlogReaderScratchTests.m */; };
+		EC14469A18B4433E00BC4606 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14469918B4433E00BC4606 /* Storyboard.storyboard */; };
+		EC14469D18B4467600BC4606 /* SKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14469C18B4467600BC4606 /* SKTableViewController.m */; };
+		EC1446A018B485D100BC4606 /* SKBlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14469F18B485D100BC4606 /* SKBlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		EC14468B18B442BD00BC4606 /* BlogReaderScratchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReaderScratchTests-Info.plist"; sourceTree = "<group>"; };
 		EC14468D18B442BD00BC4606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC14468F18B442BD00BC4606 /* BlogReaderScratchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderScratchTests.m; sourceTree = "<group>"; };
+		EC14469918B4433E00BC4606 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EC14469B18B4467600BC4606 /* SKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTableViewController.h; sourceTree = "<group>"; };
+		EC14469C18B4467600BC4606 /* SKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTableViewController.m; sourceTree = "<group>"; };
+		EC14469E18B485D100BC4606 /* SKBlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBlogPost.h; sourceTree = "<group>"; };
+		EC14469F18B485D100BC4606 /* SKBlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +117,13 @@
 			children = (
 				EC14467918B442BD00BC4606 /* SKAppDelegate.h */,
 				EC14467A18B442BD00BC4606 /* SKAppDelegate.m */,
+				EC14469B18B4467600BC4606 /* SKTableViewController.h */,
+				EC14469C18B4467600BC4606 /* SKTableViewController.m */,
 				EC14467C18B442BD00BC4606 /* Images.xcassets */,
 				EC14467118B442BD00BC4606 /* Supporting Files */,
+				EC14469918B4433E00BC4606 /* Storyboard.storyboard */,
+				EC14469E18B485D100BC4606 /* SKBlogPost.h */,
+				EC14469F18B485D100BC4606 /* SKBlogPost.m */,
 			);
 			path = BlogReaderScratch;
 			sourceTree = "<group>";
@@ -222,6 +235,7 @@
 			files = (
 				EC14467518B442BD00BC4606 /* InfoPlist.strings in Resources */,
 				EC14467D18B442BD00BC4606 /* Images.xcassets in Resources */,
+				EC14469A18B4433E00BC4606 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,8 @@
 			files = (
 				EC14467B18B442BD00BC4606 /* SKAppDelegate.m in Sources */,
 				EC14467718B442BD00BC4606 /* main.m in Sources */,
+				EC14469D18B4467600BC4606 /* SKTableViewController.m in Sources */,
+				EC1446A018B485D100BC4606 /* SKBlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
