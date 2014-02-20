@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SKTableViewController : UITableViewController
-@property (strong, nonatomic) NSArray *blogPosts;
+@property (strong, nonatomic) NSMutableArray *blogPosts;
 
 @end
