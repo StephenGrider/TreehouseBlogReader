@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *thumbnail;
 @property (nonatomic, strong) NSString *date;
+@property (nonatomic, strong) NSURL *url;
 
 //designated initalizer
 -(id)initWithTitle:(NSString *)title;

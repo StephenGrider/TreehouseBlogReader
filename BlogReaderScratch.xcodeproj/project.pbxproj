@@ -22,6 +22,7 @@
 		EC14469A18B4433E00BC4606 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14469918B4433E00BC4606 /* Storyboard.storyboard */; };
 		EC14469D18B4467600BC4606 /* SKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14469C18B4467600BC4606 /* SKTableViewController.m */; };
 		EC1446A018B485D100BC4606 /* SKBlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14469F18B485D100BC4606 /* SKBlogPost.m */; };
+		EC910B4A18B5897100C6603B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC910B4918B5897100C6603B /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		EC14469C18B4467600BC4606 /* SKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTableViewController.m; sourceTree = "<group>"; };
 		EC14469E18B485D100BC4606 /* SKBlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBlogPost.h; sourceTree = "<group>"; };
 		EC14469F18B485D100BC4606 /* SKBlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBlogPost.m; sourceTree = "<group>"; };
+		EC910B4818B5897100C6603B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EC910B4918B5897100C6603B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				EC14469918B4433E00BC4606 /* Storyboard.storyboard */,
 				EC14469E18B485D100BC4606 /* SKBlogPost.h */,
 				EC14469F18B485D100BC4606 /* SKBlogPost.m */,
+				EC910B4818B5897100C6603B /* WebViewController.h */,
+				EC910B4918B5897100C6603B /* WebViewController.m */,
 			);
 			path = BlogReaderScratch;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC14467B18B442BD00BC4606 /* SKAppDelegate.m in Sources */,
+				EC910B4A18B5897100C6603B /* WebViewController.m in Sources */,
 				EC14467718B442BD00BC4606 /* main.m in Sources */,
 				EC14469D18B4467600BC4606 /* SKTableViewController.m in Sources */,
 				EC1446A018B485D100BC4606 /* SKBlogPost.m in Sources */,
@@ -458,6 +464,7 @@
 				EC14469518B442BD00BC4606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC14469618B442BD00BC4606 /* Build configuration list for PBXNativeTarget "BlogReaderScratchTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +473,7 @@
 				EC14469818B442BD00BC4606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
